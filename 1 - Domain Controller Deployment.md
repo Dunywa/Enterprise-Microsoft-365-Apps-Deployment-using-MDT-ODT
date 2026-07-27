@@ -47,18 +47,17 @@ This server serves as the foundation for future phases, including centralized au
 Created the following directory structure on the Domain Controller:
 
 
+```text
 D:\Deploy
-
 │
-
 ├── MDT
-
 ├── Office
-
+│   ├── setup.exe
+│   ├── configuration.xml
+│   └── Office Files
 ├── Applications
-
 └── Logs
-
+```
 
 ## Shared Deployment Repository
 
@@ -75,7 +74,7 @@ Domain Admins	Full Control
 
 ## Screenshots
 
-### Server Manager
+### Domain Controller
 
 > *Insert screenshot here*
 
@@ -92,6 +91,14 @@ Domain Admins	Full Control
 > *Insert screenshot here*
 
 ### Server Successfully Promoted to Domain Controller
+
+> *Insert screenshot here*
+
+### Deployment Folder Structure
+
+> *Insert screenshot here*
+
+### Deploy$ Network Share
 
 > *Insert screenshot here*
 
