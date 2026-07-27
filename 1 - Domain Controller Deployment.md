@@ -42,6 +42,37 @@ This server serves as the foundation for future phases, including centralized au
 
 ---
 
+## Deployment Folder Structure
+
+Created the following directory structure on the Domain Controller:
+
+
+D:\Deploy
+
+│
+
+├── MDT
+
+├── Office
+
+├── Applications
+
+└── Logs
+
+
+## Shared Deployment Repository
+
+Created a hidden network share:
+
+Deploy$
+
+This share will be used to centrally store deployment files, Microsoft Office installation media, MDT deployment content, applications, and deployment logs.
+
+## Share Permissions
+Security Principal	Permission
+Everyone	Read
+Domain Admins	Full Control
+
 ## Screenshots
 
 ### Server Manager
