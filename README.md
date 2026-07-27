@@ -28,18 +28,9 @@ This project simulates a real-world enterprise or Managed Service Provider (MSP)
 
 ---
 
-## Lab Topology
+## Topology Overview
 
-```text
-                Windows Server 2022
-                      MVHOIT-DC1
-             AD DS | DNS | DHCP
-                      |
-        --------------------------------
-        |                              |
-     MVHOHR-PC1                      MVBOFN-PC1
-     Windows 11                    Windows 11
-```
+<img width="1536" height="1024" alt="Topology" src="https://github.com/user-attachments/assets/7e393ce1-9c8d-4df7-9d8c-3bb53ebcff93" />
 
 ---
 
